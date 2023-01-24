@@ -12,7 +12,7 @@ shiny::runApp('app-no-shared-state.R')
 
 In the gif below two different sessions are running. Notice that the changes to the input box in one session have no effect on the other session.
 
-![Gif of not shared state.]("./imgs/no-shared-state.gif")
+![Gif of not shared state.](./imgs/no-shared-state.gif)
 
 ## Example 2 - Shared state (the bad outcome)
 
@@ -24,4 +24,4 @@ shiny::runApp('app-shared-state.R')
 
 In the gif below two different sessions are running. Notice that the channges to the input box in one session have no effect on the other session.
 
-![Gif of shared state.]("./imgs/shared-state.gif")
+![Gif of shared state.](./imgs/shared-state.gif)
