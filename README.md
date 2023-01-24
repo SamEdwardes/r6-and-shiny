@@ -22,6 +22,6 @@ In this example, the class is instantiated outside of the server function. See [
 shiny::runApp('app-shared-state.R')
 ```
 
-In the gif below two different sessions are running. Notice that the channges to the input box in one session have no effect on the other session.
+In the gif below two different sessions are running. Notice that when changes are made to the session on the right hand side the value also changes on the left hand side.
 
 ![Gif of shared state.](./imgs/shared-state.gif)
