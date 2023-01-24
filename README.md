@@ -4,7 +4,7 @@ This repo demonstrates an approach to use R6Class shiny modules without sharing 
 
 ## Example 1 - No shared state (the desired outcome)
 
-The key to not share any state is to instantiate the module inside of the server function. See [app-shared-state.R](./app-shared-state.R).
+The key to not share any state is to instantiate the module inside of the server function. See [app-no-shared-state.R](./app-no-shared-state.R).
 
 ```r
 shiny::runApp('app-no-shared-state.R')
